@@ -1,3 +1,5 @@
+import { Chart } from "/node_modules/frappe-charts/dist/frappe-charts.esm.js"
+
 const jsonQuery = {
         "query": [
             {
@@ -96,7 +98,7 @@ const buildChart = async () => {
 
 
 
-    const chart = new frappe.Chart("#chart", {
+    const chart = new Chart("#chart", {
         title: "Population data",
         data: chartData,
         type: "line",
