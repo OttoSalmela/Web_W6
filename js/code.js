@@ -87,7 +87,7 @@ const buildChart = async (municipality) => {
     const municipalityData = await getMunicipalityData()
     const municipalityName = municipality
    
-    var municipalityID = municipalityData.variables[1].valueTexts.indexOf(municipality);
+    var municipalityID = municipalityData.variables[1].valueTexts.indexOf(municipalityName);
     var municiplaityNumber = municipalityData.variables[1].values[municipalityID]
 
     jsonQuery.query[1].selection.values[0] = municiplaityNumber
