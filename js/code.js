@@ -71,4 +71,39 @@ const getData = async () => {
     return data
 }
 
-getData()
+const buildChart = async () => {
+    const data = await getData()
+
+    console.log(data)
+
+    const vuosi = Object.values(data.dimension.Vuosi.category.label);
+    const alue = Object.values(data.dimension.Alue.category.label);
+    const arvot = data.value
+
+    console.log(vuosi)
+    console.log(alue)
+    console.log(arvot)
+
+
+    const chartData = {
+        labels: vuosi,
+        datasets: [
+            {
+                values: arvot
+            }
+        ]
+    }
+
+
+
+    const chart = new frappe.Chart("#chart", {
+        title: "Population data",
+        data: chartData,
+        type: "line",
+        height: 450,
+        colors: ['#eb5146'],
+    })
+
+}
+
+buildChart()
