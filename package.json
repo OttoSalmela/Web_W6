@@ -1,3 +1,4 @@
+
 {
   "name": "vanilla",
   "version": "1.0.0",
@@ -7,10 +8,10 @@
     "start": "parcel web_w6.html",
     "build": "parcel build web_w6.html"
   },
-  "dependencies": { 
+  "dependencies": {
     "parcel-bundler": "^1.6.1",
-    "frappe-charts": "^1.6.2"
-  },
+    "frappe-charts": "^1.6.2" },
+
   "devDependencies": {
     "@babel/core": "7.2.0",
     "typescript": "4.4.4"
@@ -18,16 +19,5 @@
   "resolutions": {
     "@babel/preset-env": "7.13.8"
   },
-  "keywords": ["javascript", "starter"],
-  
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/OttoSalmela/Web_W6.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/OttoSalmela/Web_W6/issues"
-  },
-  "homepage": "https://github.com/OttoSalmela/Web_W6#readme"
+  "keywords": ["javascript", "starter"]
 }
