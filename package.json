@@ -2,14 +2,14 @@
   "name": "vanilla",
   "version": "1.0.0",
   "description": "JavaScript example starter project",
-  "main": "web_w6.html",
+  "main": "web_w3.html",
   "scripts": {
-    "start": "parcel web_w6.html",
-    "build": "parcel build web_w6.html"
+    "start": "parcel web_w3.html",
+    "build": "parcel build web_w3.html"
   },
-  "dependencies": {
-    "frappe-charts": "^1.6.2",
-    "parcel-bundler": "^1.6.1"
+  "dependencies": { 
+    "parcel-bundler": "^1.6.1",
+    "frappe-charts": "^1.6.2"
   },
   "devDependencies": {
     "@babel/core": "7.2.0",
@@ -18,10 +18,8 @@
   "resolutions": {
     "@babel/preset-env": "7.13.8"
   },
-  "keywords": [
-    "javascript",
-    "starter"
-  ],
+  "keywords": ["javascript", "starter"],
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/OttoSalmela/Web_W6.git"
