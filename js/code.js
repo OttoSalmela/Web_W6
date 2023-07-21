@@ -128,3 +128,5 @@ submitButton.addEventListener("click", function() {
     buildChart(municipality)
 
 })
+
+getData()
